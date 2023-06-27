@@ -10,18 +10,38 @@ body {
 }
 
 .title {
+  box-sizing: border-box;
   background: #e3f4ff;
+  margin: 10px;
+  padding: 7px;
+  font-size: 17px;
+  display: inline-block;
+  width: 380px;
 }
 
 .content {
   background: #e3f4ff;
+  padding: 7px;
+  margin:0 10px;
 }
 
 .button-container {
+  box-sizing: border-box;
   background: #e3f4ff;
+  margin: 10px;
+  padding: 7px;
+  display: inline-block;
+  width: 380px;
 }
 
 button {
   background: white;
   border: 1px solid #eee;
+  display: block;
+  margin: 0 auto;
+}
+
+.text {
+  display: block;
+  text-align: center;
 }
